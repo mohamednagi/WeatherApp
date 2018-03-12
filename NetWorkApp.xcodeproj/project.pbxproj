@@ -12,6 +12,10 @@
 		9AF8532A20417BC400D633AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AF8532820417BC400D633AF /* Main.storyboard */; };
 		9AF8532C20417BC400D633AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AF8532B20417BC400D633AF /* Assets.xcassets */; };
 		9AF8532F20417BC400D633AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AF8532D20417BC400D633AF /* LaunchScreen.storyboard */; };
+		9AF853372041826900D633AF /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF853362041826900D633AF /* MyButton.swift */; };
+		9AF8533920418CF600D633AF /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF8533820418CF600D633AF /* WeatherService.swift */; };
+		9AF8533B204191B300D633AF /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF8533A204191B300D633AF /* Weather.swift */; };
+		9AF8533D20419B6200D633AF /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF8533C20419B6200D633AF /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		9AF8532B20417BC400D633AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AF8532E20417BC400D633AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9AF8533020417BC400D633AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AF853362041826900D633AF /* MyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButton.swift; sourceTree = "<group>"; };
+		9AF8533820418CF600D633AF /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		9AF8533A204191B300D633AF /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		9AF8533C20419B6200D633AF /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +62,12 @@
 		9AF8532320417BC400D633AF /* NetWorkApp */ = {
 			isa = PBXGroup;
 			children = (
+				9AF8533C20419B6200D633AF /* SwiftyJSON.swift */,
 				9AF8532420417BC400D633AF /* AppDelegate.swift */,
 				9AF8532620417BC400D633AF /* ViewController.swift */,
+				9AF8533A204191B300D633AF /* Weather.swift */,
+				9AF8533820418CF600D633AF /* WeatherService.swift */,
+				9AF853362041826900D633AF /* MyButton.swift */,
 				9AF8532820417BC400D633AF /* Main.storyboard */,
 				9AF8532B20417BC400D633AF /* Assets.xcassets */,
 				9AF8532D20417BC400D633AF /* LaunchScreen.storyboard */,
@@ -136,8 +148,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AF8533920418CF600D633AF /* WeatherService.swift in Sources */,
 				9AF8532720417BC400D633AF /* ViewController.swift in Sources */,
 				9AF8532520417BC400D633AF /* AppDelegate.swift in Sources */,
+				9AF8533D20419B6200D633AF /* SwiftyJSON.swift in Sources */,
+				9AF853372041826900D633AF /* MyButton.swift in Sources */,
+				9AF8533B204191B300D633AF /* Weather.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
